@@ -1,0 +1,16 @@
+#!/bin/sh
+
+echo "Git pre-commit checks:"
+
+python format.py
+
+if [ $? -eq 0 ]; 
+then
+    echo ""
+    echo "GitHook: Clang-format...................................SUCCESS"
+    exit 0
+else
+    echo ""
+    echo "GitHook: Clang-format...................................FAILED"
+    exit 1
+fi
