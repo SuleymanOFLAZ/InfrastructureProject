@@ -1,0 +1,369 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-cygwin
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jul  5 12:01:33 2022
+
+# Variables
+
+ 
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\suley
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\suley\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2e08855a-f7eb-4ccc-a15b-6f993f01cdfc-sock
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+VSCODE_CWD = C:\Users\suley\OneDrive\Masaüstü\Clang çalışması
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14772_JNUNQAIJKZNQJBTV
+# makefile (from 'Makefile', line 4)
+INCLUDE_DIR = ./src/include
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\suley\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = /cygdrive/c/Users/suley/AppData/Local/Temp
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\suley\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
+# makefile
+CURDIR := /cygdrive/c/Users/suley/OneDrive/Masaüstü/Clang çalışması
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+!C: = c:\Users\suley\OneDrive\Masaüstü\Clang çalışması
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 14772
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+WT_PROFILE_ID = {0caa0dad-35be-5f56-a8ff-afceeeaa6101}
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\suley\OneDrive
+# default
+MAKE_HOST := x86_64-pc-cygwin
+# makefile (from 'Makefile', line 9)
+OBJS = $(patsubst $(CODE_DIR)/%.c, $(BUILD_DIR)/%.o, $(wildcard $(CODE_DIR)/*.c))
+# makefile (from 'Makefile', line 2)
+COMPILER = gcc
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := /bin/sh
+# environment
+HOMEPATH = \Users\suley
+ 
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/MATLAB/R2020a/runtime/win64:/cygdrive/c/Program Files/MATLAB/R2020a/bin:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/dotnet:/usr/bin:/cygdrive/c/Program Files/Notepad++/notepad++.exe:/cygdrive/c/Calismalar/C Advance/Chapter_17_Libraries/Example2/myLIB:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/cygdrive/c/Program Files/PuTTY:/cygdrive/c/xpack-openocd-0.11.0-1-win32-x64/xpack-openocd-0.11.0-1/bin:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/Program Files/PowerShell/7:/cygdrive/c/Program Files/LLVM/bin:/cygdrive/c/Users/suley/AppData/Local/Programs/Python/Python38-32/Scripts:/cygdrive/c/Users/suley/AppData/Local/Programs/Python/Python38-32:/cygdrive/c/Users/suley/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/altera/14.1/modelsim_ase/win32aloem:/cygdrive/c/Users/suley/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/suley/spicetify-cli:/cygdrive/c/ProgramData/chocolatey:/cygdrive/c/Program Files/Cppcheck
+# environment
+COMPUTERNAME = SULEYMANOFLAZ
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'Makefile', line 8)
+OBJ_FILES = main.o func.o measure.o
+# environment
+WT_SESSION = 283798b2-060c-4d89-9485-439633c90fa2
+# environment
+LOGONSERVER = \\SULEYMANOFLAZ
+# environment
+QSYS_ROOTDIR = C:\altera\14.1\quartus\sopc_builder\bin
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = suley
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.JS;.WS;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = SULEYMANOFLAZ
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 7)
+SRC_FILES = main.c func.c measure.c
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = SULEYMANOFLAZ
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+QUARTUS_ROOTDIR = C:\altera\14.1\quartus
+# environment
+SOPC_KIT_NIOS2 = C:\altera\14.1\nios2eds
+# makefile (from 'Makefile', line 3)
+COMPILER_FLAGS = -Wall -O0
+# environment
+APPDATA = C:\Users\suley\AppData\Roaming
+# environment
+ALTERAOCLSDKROOT = C:\altera\14.1\hld
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from 'Makefile', line 6)
+BUILD_DIR = ./build
+# environment
+HOME = /home/suley
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = /cygdrive/c/Users/suley/AppData/Local/Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b1b4a576098abefdcf4e90f8219a6f6e-1.68.1-main-sock
+# environment
+TERM = xterm-256color
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# environment
+PROCESSOR_REVISION = 3a09
+# makefile (from 'Makefile', line 5)
+CODE_DIR = ./src/code
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+# variable set hash-table stats:
+# Load=114/1024=11%, Rehash=0, Collisions=17/149=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2426065783, inode 40250921669632517): 8 files, no impossibilities.
+ 
+# src/code (device 2426065783, inode 9288674231468206): 5 files, no impossibilities.
+# ./src/code (device 2426065783, inode 9288674231468206): 5 files, no impossibilities.
+
+# 18 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+build/%.o: src/code/%.c
+#  recipe to execute (from 'Makefile', line 18):
+	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+src/code/measure.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 22:37:16.988494
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/code/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 22:38:58.7892454
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 22:23:05.6667904
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/code/func.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 22:25:19.6724422
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	rm -f $(BUILD_DIR)/*.elf $(OBJS)
+
+build/measure.o: src/code/measure.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'measure'
+#  Last modified 2022-07-04 22:39:13.0127157
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: build/run.elf
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+build/run.elf: build/func.o build/main.o build/measure.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-04 22:39:13.2905453
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 15):
+	$(COMPILER) $(COMPILER_FLAGS) -g -o $@ $(OBJS)
+
+build/func.o: src/code/func.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'func'
+#  Last modified 2022-07-04 22:39:12.6859122
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
+
+build/main.o: src/code/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-07-04 22:39:12.877797
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 18):
+	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/37=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 30 / storage = 281 B / avg = 9 B
+# current buf: size = 8162 B / used = 281 B / count = 30 / avg = 9 B
+
+# strcache performance: lookups = 44 / hit rate = 31%
+# hash-table stats:
+ 
+# Load=30/8192=0%, Rehash=0, Collisions=0/44=0%
+# Finished Make data base on Tue Jul  5 12:01:33 2022
+
+ 
