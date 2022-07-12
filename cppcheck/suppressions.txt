@@ -1,0 +1,2 @@
+// Unread variable suppression
+unreadVariable:./src/include/delete/main.c

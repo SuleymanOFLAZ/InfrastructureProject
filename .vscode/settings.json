@@ -1,3 +1,11 @@
 {
-    "makefile.extensionOutputFolder": "./.vscode"
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "*.c": "c",
+        "stdlib.h": "c",
+        "_ansi.h": "c",
+        "main.h": "c"
+    },
+    "clang-format.executable": "C:/Program Files/LLVM/bin/clang-format.exe",
+    "clang-format.style": "file"
 }

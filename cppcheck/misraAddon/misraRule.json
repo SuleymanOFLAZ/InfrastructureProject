@@ -1,0 +1,6 @@
+{
+    "script": "./cppcheck/misraAddon/misra.py",
+    "args": [
+        "--rule-texts=.\\cppcheck\\misraAddon\\misraRule.txt"
+    ]
+}

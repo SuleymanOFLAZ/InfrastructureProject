@@ -1,20 +1,21 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
 # Built for x86_64-pc-cygwin
+ 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue Jul  5 12:01:33 2022
+# Make data base, printed on Tue Jul 12 19:00:38 2022
 
 # Variables
 
- 
 # environment
 SYSTEMDRIVE = C:
 # environment
+ 
 LC_ALL = C
 # environment
 USERPROFILE = C:\Users\suley
@@ -23,11 +24,9 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\suley\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2e08855a-f7eb-4ccc-a15b-6f993f01cdfc-sock
-# environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
-VSCODE_CWD = C:\Users\suley\OneDrive\Masaüstü\Clang çalışması
+VSCODE_CWD = C:\Users\suley\OneDrive\Masaüstü\InftastructureWork\InfrastructureProject
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -41,7 +40,7 @@ MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14772_JNUNQAIJKZNQJBTV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14784_EJJQZGZTNWCRAJSB
 # makefile (from 'Makefile', line 4)
 INCLUDE_DIR = ./src/include
 # environment
@@ -52,12 +51,10 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 %D = $(patsubst %/,%,$(dir $%))
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
-# environment
-VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\suley\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\suley\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LANG = C
 # default
@@ -73,9 +70,7 @@ ONEDRIVE = C:\Users\suley\OneDrive
 # environment
 POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
 # makefile
-CURDIR := /cygdrive/c/Users/suley/OneDrive/Masaüstü/Clang çalışması
-# environment
-VSCODE_PIPE_LOGGING = true
+CURDIR := /cygdrive/c/Users/suley/OneDrive/Masaüstü/InftastructureWork/InfrastructureProject
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -87,7 +82,7 @@ MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
-!C: = c:\Users\suley\OneDrive\Masaüstü\Clang çalışması
+!C: = c:\Users\suley\OneDrive\Masaüstü\InftastructureWork\InfrastructureProject
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
@@ -97,9 +92,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-VSCODE_PID = 14772
+VSCODE_PID = 14784
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -124,11 +117,11 @@ PROGRAMDATA = C:\ProgramData
 SHELL := /bin/sh
 # environment
 HOMEPATH = \Users\suley
- 
 # default
 MAKECMDGOALS := all
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+ 
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
@@ -150,15 +143,13 @@ PROMPT = $P$G
 # makefile (from 'Makefile', line 8)
 OBJ_FILES = main.o func.o measure.o
 # environment
-WT_SESSION = 283798b2-060c-4d89-9485-439633c90fa2
+WT_SESSION = c202c831-dcbc-4e20-b33a-2f0064e3b3bd
 # environment
 LOGONSERVER = \\SULEYMANOFLAZ
 # environment
 QSYS_ROOTDIR = C:\altera\14.1\quartus\sopc_builder\bin
 # environment
-VSCODE_LOG_NATIVE = false
-# environment
-USERNAME = suley
+USERNAME = SO
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # automatic
@@ -210,7 +201,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # makefile (from 'Makefile', line 6)
 BUILD_DIR = ./build
 # environment
-HOME = /home/suley
+HOME = /home/SO
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
@@ -218,7 +209,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = /cygdrive/c/Users/suley/AppData/Local/Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b1b4a576098abefdcf4e90f8219a6f6e-1.68.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b1b4a576098abefdcf4e90f8219a6f6e-1.69.0-main-sock
 # environment
 TERM = xterm-256color
 # default
@@ -232,6 +223,7 @@ ALLUSERSPROFILE = C:\ProgramData
 # environment
 VSCODE_CLI = 1
 # environment
+ 
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
@@ -242,7 +234,7 @@ CODE_DIR = ./src/code
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=17/149=11%
+# Load=109/1024=11%, Rehash=0, Collisions=14/144=10%
 
 # Pattern-specific Variable Values
 
@@ -250,12 +242,11 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (device 2426065783, inode 40250921669632517): 8 files, no impossibilities.
- 
-# src/code (device 2426065783, inode 9288674231468206): 5 files, no impossibilities.
-# ./src/code (device 2426065783, inode 9288674231468206): 5 files, no impossibilities.
+# . (device 2426065783, inode 4503599627780164): 19 files, no impossibilities.
+# src/code (device 2426065783, inode 4222124651072759): 5 files, no impossibilities.
+# ./src/code (device 2426065783, inode 4222124651072759): 5 files, no impossibilities.
 
-# 18 files, no impossibilities in 3 directories.
+# 29 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -276,21 +267,21 @@ src/code/measure.c:
 # Not a target:
 src/code/main.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-04 22:38:58.7892454
+#  Last modified 2022-07-05 21:05:03.2868458
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-04 22:23:05.6667904
+#  Last modified 2022-07-07 20:33:14.8831235
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/code/func.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-04 22:25:19.6724422
+#  Last modified 2022-07-05 12:22:07.3135736
 #  File has been updated.
 #  Successfully updated.
 
@@ -304,7 +295,7 @@ clean:
 build/measure.o: src/code/measure.c
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'measure'
-#  Last modified 2022-07-04 22:39:13.0127157
+#  Last modified 2022-07-07 20:33:28.6745047
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 18):
@@ -325,16 +316,16 @@ all: build/run.elf
 
 build/run.elf: build/func.o build/main.o build/measure.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-04 22:39:13.2905453
+#  Last modified 2022-07-07 20:33:29.1267646
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 15):
-	$(COMPILER) $(COMPILER_FLAGS) -g -o $@ $(OBJS)
+	$(COMPILER) $(COMPILER_FLAGS) -g -o $@ $(OBJS) -Wl,-Map=Mapfile.map
 
 build/func.o: src/code/func.c
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'func'
-#  Last modified 2022-07-04 22:39:12.6859122
+#  Last modified 2022-07-07 20:33:28.3100371
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 18):
@@ -343,7 +334,7 @@ build/func.o: src/code/func.c
 build/main.o: src/code/main.c
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'main'
-#  Last modified 2022-07-04 22:39:12.877797
+#  Last modified 2022-07-07 20:33:28.5313784
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 18):
@@ -357,13 +348,12 @@ build/main.o: src/code/main.c
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 30 / storage = 281 B / avg = 9 B
-# current buf: size = 8162 B / used = 281 B / count = 30 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 41 / storage = 415 B / avg = 10 B
+# current buf: size = 8162 B / used = 415 B / count = 41 / avg = 10 B
 
-# strcache performance: lookups = 44 / hit rate = 31%
+# strcache performance: lookups = 55 / hit rate = 25%
 # hash-table stats:
- 
-# Load=30/8192=0%, Rehash=0, Collisions=0/44=0%
-# Finished Make data base on Tue Jul  5 12:01:33 2022
+# Load=41/8192=1%, Rehash=0, Collisions=0/55=0%
+# Finished Make data base on Tue Jul 12 19:00:38 2022
 
  

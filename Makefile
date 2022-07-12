@@ -12,7 +12,7 @@ OBJS = $(patsubst $(CODE_DIR)/%.c, $(BUILD_DIR)/%.o, $(wildcard $(CODE_DIR)/*.c)
 all:$(BUILD_DIR)/run.elf
 
 $(BUILD_DIR)/run.elf:$(OBJS)
-	$(COMPILER) $(COMPILER_FLAGS) -g -o $@ $(OBJS)
+	$(COMPILER) $(COMPILER_FLAGS) -g -o $@ $(OBJS) -Wl,-Map=Mapfile.map
 
 $(BUILD_DIR)/%.o: $(CODE_DIR)/%.c
 	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
