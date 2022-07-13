@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="1796460442">
+<analyzerinfo checksum="1923163111">
         <error id="misra-c2012-10.3" severity="style" msg="misra violation 1003 with no text in the supplied rule-texts-file" verbose="misra violation 1003 with no text in the supplied rule-texts-file" file0="src/code/main.c.dump">
-            <location file="src\code\main.c" line="11" column="30"/>
+            <location file="src\code\main.c" line="12" column="30"/>
         </error>
         <error id="misra-c2012-15.6" severity="style" msg="R15.6 text." verbose="R15.6 text." file0="src/code/main.c.dump">
             <location file="src\code\main.c" line="7" column="5"/>
@@ -13,16 +13,19 @@
             <location file="src\code\main.c" line="10" column="15"/>
         </error>
         <error id="misra-c2012-17.7" severity="style" msg="R17.7 text." verbose="R17.7 text." file0="src/code/main.c.dump">
-            <location file="src\code\main.c" line="16" column="15"/>
+            <location file="src\code\main.c" line="11" column="15"/>
         </error>
         <error id="misra-c2012-17.7" severity="style" msg="R17.7 text." verbose="R17.7 text." file0="src/code/main.c.dump">
             <location file="src\code\main.c" line="17" column="15"/>
         </error>
         <error id="misra-c2012-17.7" severity="style" msg="R17.7 text." verbose="R17.7 text." file0="src/code/main.c.dump">
-            <location file="src\code\main.c" line="21" column="15"/>
+            <location file="src\code\main.c" line="18" column="15"/>
         </error>
         <error id="misra-c2012-17.7" severity="style" msg="R17.7 text." verbose="R17.7 text." file0="src/code/main.c.dump">
             <location file="src\code\main.c" line="22" column="15"/>
+        </error>
+        <error id="misra-c2012-17.7" severity="style" msg="R17.7 text." verbose="R17.7 text." file0="src/code/main.c.dump">
+            <location file="src\code\main.c" line="23" column="15"/>
         </error>
         <error id="misra-c2012-21.1" severity="style" msg="misra violation 2101 with no text in the supplied rule-texts-file" verbose="misra violation 2101 with no text in the supplied rule-texts-file" file0="src/code/main.c.dump">
             <location file="src\include\func.h" line="2" column="0"/>
@@ -37,10 +40,10 @@
             <location file="src\code\main.c" line="1" column="0"/>
         </error>
         <error id="misra-c2012-21.7" severity="style" msg="R21.7 Comment Text, So." verbose="R21.7 Comment Text, So." file0="src/code/main.c.dump">
-            <location file="src\code\main.c" line="13" column="35"/>
+            <location file="src\code\main.c" line="14" column="35"/>
         </error>
         <error id="misra-c2012-21.7" severity="style" msg="R21.7 Comment Text, So." verbose="R21.7 Comment Text, So." file0="src/code/main.c.dump">
-            <location file="src\code\main.c" line="14" column="35"/>
+            <location file="src\code\main.c" line="15" column="35"/>
         </error>
   <FileInfo check="CheckUnusedFunctions">
     <functiondecl functionName="main" lineNumber="5"/>

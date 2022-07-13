@@ -84,7 +84,6 @@ proc = subprocess.Popen(command,
                             stdin=subprocess.PIPE, 
                             universal_newlines=True)
 stdout, stderr = proc.communicate()
-print(stdout)
 
 # Remove .dump files
 dumpFiles = glob.glob("./src/**/*.dump", recursive=True)
