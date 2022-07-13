@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     else
     {
         printf("\nCalculating the cylinder value\n\n");
+        printf("  ");
         double cylinder_value=0;
 
         double height_value = atof(argv[1]);
