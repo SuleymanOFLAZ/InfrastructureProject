@@ -2,31 +2,54 @@
 
 echo "Git pre-commit checks:"
 
-formatReturn=1
-checkReturn=1
+formatReturn=0
+checkReturn=0
 
 python format.py
 
-if [ $? -eq 0 ]; 
-then
-    echo ""
-    echo "GitHook: Clang-format...................................SUCCESS"
-    formatReturn=0
-else
-    echo ""
-    echo "GitHook: Clang-format...................................FAILED"
-fi
+formatReturn=$?
+# if [ $? -eq 0 ]; 
+# then
+#     echo ""
+#     echo "GitHook: Clang-format...................................SUCCESS"
+#     formatReturn=0
+# else
+#     echo ""
+#     echo "GitHook: Clang-format...................................FAILED"
+# fi
 
 python check.py -GD
 
-if [ $? -eq 0 ]; 
+checkReturn=$?
+# if [ $? -eq 0 ]; 
+# then
+#     echo ""
+#     echo "GitHook: CppCheck........................................SUCCESS"
+#     checkReturn=0
+# else
+#     echo ""
+#     echo "GitHook: CppCheck........................................FAILED"
+# fi
+
+echo "Format"
+echo $formatReturn
+echo "Check"
+echo $checkReturn
+
+echo "Git Hook Results:"
+
+if (( $formatReturn==0 ))
 then
-    echo ""
-    echo "GitHook: CppCheck........................................SUCCESS"
-    checkReturn=0
+    echo "GitHook: Clang-format....................................SUCCESS"
 else
-    echo ""
-    echo "GitHook: ChhCheck........................................FAILED"
+    echo "GitHook: Clang-format....................................FAILED"
+fi
+
+if (( $checkReturn==0 ))
+then
+    echo "GitHook: CppCheck........................................SUCCESS"
+else
+    echo "GitHook: CppCheck........................................FAILED"
 fi
 
 if (( $formatReturn==0 & $checkReturn==0 ))
