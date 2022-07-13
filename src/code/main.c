@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
         cylinder_value = cylinderValue(height_value, radius_value);
 
         printf("The value of cylinder is: %.3f\n", cylinder_value);
-        printf("...\n");
+        printf("Job is done...\n");
     }
 
     return 0;

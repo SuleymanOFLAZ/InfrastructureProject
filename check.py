@@ -15,6 +15,7 @@ arguments = ["--dump", "--enable=all", "--platform=./cppcheck/aix_ppc64.xml",
                 "--suppressions-list=./cppcheck/suppressions.txt",
                 "--addon=./cppcheck/misraAddon/misraRule.json",
                 "--includes-file=./cppcheck/includeFiles.txt",
+                "--error-exitcode=1",
                 ]
 
 parser = argparse.ArgumentParser(description="CppCheck Script.\n")
@@ -35,7 +36,7 @@ for files in incFiles:
 # Remove duplicate ones
 incDir = list(set(incDir))
 
-#Create Command
+# Create Command
 if args.checkconfig:
     arguments.append("--check-config")
 elif args.checklibrary:
@@ -44,6 +45,7 @@ else:
     arguments.append("--cppcheck-build-dir=./cppcheck/cppCheckBuild")
 command.extend(arguments)
 
+# Check that git diff or whole files
 if args.gitdiff:
     proc = subprocess.Popen(["git", "diff", "--name-only", "--no-color", "HEAD^"], stdout=subprocess.PIPE, stderr=None, stdin=subprocess.PIPE, universal_newlines=True)
     stdout, stderr = proc.communicate()
@@ -63,7 +65,6 @@ if args.gitdiff:
         sys.exit(0)
     else:
         for files in new_files:
-            print(files+"\n")
             command.append(files)
 else:
     command.append(code_path)
@@ -71,6 +72,7 @@ for dir in incDir:
     include_argument = "-I"+dir
     command.append(include_argument)
 
+# Clean cppcheck build dir if clean run needed
 if args.cleanbuilddir:
     for file in os.listdir('./cppcheck/cppCheckBuild'):
         os.remove(os.path.join('./cppcheck/cppCheckBuild', file))
@@ -83,5 +85,12 @@ proc = subprocess.Popen(command,
                             universal_newlines=True)
 stdout, stderr = proc.communicate()
 print(stdout)
+
+# Remove .dump files
+dumpFiles = glob.glob("./src/**/*.dump", recursive=True)
+if len(dumpFiles) != 0:
+    for files in dumpFiles:
+        os.remove(files)
+
 if proc.returncode != 0:
     sys.exit(proc.returncode)
