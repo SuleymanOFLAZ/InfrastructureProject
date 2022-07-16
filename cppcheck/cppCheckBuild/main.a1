@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="1923163111">
+<analyzerinfo checksum="2681321202">
         <error id="misra-c2012-10.3" severity="style" msg="misra violation 1003 with no text in the supplied rule-texts-file" verbose="misra violation 1003 with no text in the supplied rule-texts-file" file0="src/code/main.c.dump">
             <location file="src\code\main.c" line="12" column="30"/>
         </error>

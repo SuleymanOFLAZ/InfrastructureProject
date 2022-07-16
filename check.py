@@ -11,7 +11,7 @@ include_path = "./src/include"
 
 command = ["cppcheck"]
 arguments = ["--dump", "--enable=all", "--platform=./cppcheck/aix_ppc64.xml",
-                "--library=./cppcheck/posix.cfg", "--inconclusive",
+                "--library=./cppcheck/posix.cfg", "--language=c", "--std=c11",
                 "--suppressions-list=./cppcheck/suppressions.txt",
                 "--addon=./cppcheck/misraAddon/misraRule.json",
                 "--includes-file=./cppcheck/includeFiles.txt",

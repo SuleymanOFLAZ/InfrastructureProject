@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "cf4e2e840dd3f29b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f45dd80cfd7b9d7b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BuildNotes/MapFilesAndObjdump.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8cabb5112ec1473f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d1fef8e7b4ddc65",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68cacb93d6eeeffb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "80d19dc1ac8d35fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dfceb4e646b79e0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "69499002953ca656",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0978c0d1c78b69f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "BuildNotes/MapFilesAndObjdump.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f45dd80cfd7b9d7b",
+  "lastOpenFiles": [
+    "Ceedling/CeedlingExample.md",
+    "Ceedling/CeedlingGuide.md",
+    "Ceedling/Considerations and Limitations.md",
+    "Ceedling/Embedded Software Unit Testing with Ceedling.md",
+    "Ceedling/Install Ceedling.md",
+    "Untitled.md",
+    "BuildNotes/MapFilesAndObjdump.md",
+    "Infrastructure/CppCheck/Cppcheck Manual Note.md",
+    "Infrastructure/CppCheck/CppCheck Wiki.md",
+    "Infrastructure/ClangFormatNotes/clang-format wiki.md"
+  ]
+}

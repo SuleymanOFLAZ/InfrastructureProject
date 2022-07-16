@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
         double height_value = atof(argv[1]);
         double radius_value = atof(argv[2]);
 
-        printf("\nHeight: %.3f\n", height_value);
-        printf("Radius: %.3f\n", radius_value);
+        printf("\nHeight:  %.3f\n", height_value);
+        printf("Radius:  %.3f\n", radius_value);
 
         cylinder_value = cylinderValue(height_value, radius_value);
 

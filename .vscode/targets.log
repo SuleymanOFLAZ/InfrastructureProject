@@ -1,21 +1,22 @@
 make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
 # Built for x86_64-pc-cygwin
- 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Tue Jul 12 19:00:38 2022
+# Make data base, printed on Thu Jul 14 15:50:11 2022
 
 # Variables
 
 # environment
+ 
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
 SYSTEMDRIVE = C:
 # environment
- 
 LC_ALL = C
 # environment
 USERPROFILE = C:\Users\suley
@@ -24,9 +25,7 @@ VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
 # environment
 LOCALAPPDATA = C:\Users\suley\AppData\Local
 # environment
-WSLENV = WT_SESSION::WT_PROFILE_ID
-# environment
-VSCODE_CWD = C:\Users\suley\OneDrive\Masaüstü\InftastructureWork\InfrastructureProject
+VSCODE_CWD = C:\Users\suley\AppData\Local\Programs\Microsoft VS Code
 # environment
 CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
 # environment
@@ -34,15 +33,17 @@ SYSTEMROOT = C:\WINDOWS
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := make
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14784_EJJQZGZTNWCRAJSB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15084_NIUZLICQOIRQAHIV
 # makefile (from 'Makefile', line 4)
 INCLUDE_DIR = ./src/include
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -54,7 +55,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\suley\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+VSCODE_CODE_CACHE_PATH = C:\Users\suley\AppData\Roaming\Code\CachedData\b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # environment
 LANG = C
 # default
@@ -70,7 +71,7 @@ ONEDRIVE = C:\Users\suley\OneDrive
 # environment
 POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
 # makefile
-CURDIR := /cygdrive/c/Users/suley/OneDrive/Masaüstü/InftastructureWork/InfrastructureProject
+CURDIR := /cygdrive/c/Users/suley/OneDrive/Belgeler/InftastructureWork/InfrastructureProject
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -82,7 +83,7 @@ MFLAGS = -pqrR
 # default
 .SHELLFLAGS := -c
 # environment
-!C: = c:\Users\suley\OneDrive\Masaüstü\InftastructureWork\InfrastructureProject
+!C: = c:\Users\suley\OneDrive\Belgeler\InftastructureWork\InfrastructureProject
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # automatic
@@ -92,11 +93,9 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 14784
+VSCODE_PID = 15084
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-WT_PROFILE_ID = {0caa0dad-35be-5f56-a8ff-afceeeaa6101}
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -113,6 +112,7 @@ OBJS = $(patsubst $(CODE_DIR)/%.c, $(BUILD_DIR)/%.o, $(wildcard $(CODE_DIR)/*.c)
 COMPILER = gcc
 # environment
 PROGRAMDATA = C:\ProgramData
+ 
 # default
 SHELL := /bin/sh
 # environment
@@ -121,7 +121,6 @@ HOMEPATH = \Users\suley
 MAKECMDGOALS := all
 # environment
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
- 
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
 # environment
@@ -131,7 +130,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/MATLAB/R2020a/runtime/win64:/cygdrive/c/Program Files/MATLAB/R2020a/bin:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/dotnet:/usr/bin:/cygdrive/c/Program Files/Notepad++/notepad++.exe:/cygdrive/c/Calismalar/C Advance/Chapter_17_Libraries/Example2/myLIB:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/cygdrive/c/Program Files/PuTTY:/cygdrive/c/xpack-openocd-0.11.0-1-win32-x64/xpack-openocd-0.11.0-1/bin:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/Program Files/PowerShell/7:/cygdrive/c/Program Files/LLVM/bin:/cygdrive/c/Users/suley/AppData/Local/Programs/Python/Python38-32/Scripts:/cygdrive/c/Users/suley/AppData/Local/Programs/Python/Python38-32:/cygdrive/c/Users/suley/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/altera/14.1/modelsim_ase/win32aloem:/cygdrive/c/Users/suley/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/suley/spicetify-cli:/cygdrive/c/ProgramData/chocolatey:/cygdrive/c/Program Files/Cppcheck
+PATH = /cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Windows/System32/OpenSSH:/cygdrive/c/Program Files/MATLAB/R2020a/runtime/win64:/cygdrive/c/Program Files/MATLAB/R2020a/bin:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/dotnet:/usr/bin:/cygdrive/c/Program Files/Notepad++/notepad++.exe:/cygdrive/c/Calismalar/C Advance/Chapter_17_Libraries/Example2/myLIB:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/cygdrive/c/Program Files/PuTTY:/cygdrive/c/xpack-openocd-0.11.0-1-win32-x64/xpack-openocd-0.11.0-1/bin:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/Program Files/PowerShell/7:/cygdrive/c/Program Files/LLVM/bin:/cygdrive/c/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin:/cygdrive/c/Users/suley/AppData/Local/Programs/Python/Python38-32/Scripts:/cygdrive/c/Users/suley/AppData/Local/Programs/Python/Python38-32:/cygdrive/c/Users/suley/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/altera/14.1/modelsim_ase/win32aloem:/cygdrive/c/Users/suley/AppData/Local/Programs/Microsoft VS Code/bin:/cygdrive/c/Users/suley/spicetify-cli:/cygdrive/c/ProgramData/chocolatey/bin:/cygdrive/c/ProgramData/chocolatey:/cygdrive/c/Program Files/Cppcheck
 # environment
 COMPUTERNAME = SULEYMANOFLAZ
 # default
@@ -142,8 +141,6 @@ MAKEFILES :=
 PROMPT = $P$G
 # makefile (from 'Makefile', line 8)
 OBJ_FILES = main.o func.o measure.o
-# environment
-WT_SESSION = c202c831-dcbc-4e20-b33a-2f0064e3b3bd
 # environment
 LOGONSERVER = \\SULEYMANOFLAZ
 # environment
@@ -209,7 +206,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = /cygdrive/c/Users/suley/AppData/Local/Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\b1b4a576098abefdcf4e90f8219a6f6e-1.69.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\b1b4a576098abefdcf4e90f8219a6f6e-1.69.1-main-sock
 # environment
 TERM = xterm-256color
 # default
@@ -221,20 +218,18 @@ SUFFIXES :=
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-VSCODE_CLI = 1
-# environment
- 
-ELECTRON_NO_ATTACH_CONSOLE = 1
+SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # environment
 PROCESSOR_REVISION = 3a09
 # makefile (from 'Makefile', line 5)
 CODE_DIR = ./src/code
+ 
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=109/1024=11%, Rehash=0, Collisions=14/144=10%
+# Load=107/1024=10%, Rehash=0, Collisions=16/148=11%
 
 # Pattern-specific Variable Values
 
@@ -242,9 +237,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (device 2426065783, inode 4503599627780164): 19 files, no impossibilities.
-# src/code (device 2426065783, inode 4222124651072759): 5 files, no impossibilities.
-# ./src/code (device 2426065783, inode 4222124651072759): 5 files, no impossibilities.
+# . (device 2426065783, inode 3096224745568864): 19 files, no impossibilities.
+# src/code (device 2426065783, inode 3659174699081843): 5 files, no impossibilities.
+# ./src/code (device 2426065783, inode 3659174699081843): 5 files, no impossibilities.
 
 # 29 files, no impossibilities in 3 directories.
 
@@ -258,16 +253,9 @@ build/%.o: src/code/%.c
 # Files
 
 # Not a target:
-src/code/measure.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-04 22:37:16.988494
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
 src/code/main.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-05 21:05:03.2868458
+#  Last modified 2022-07-13 21:09:33.7005974
 #  File has been updated.
 #  Successfully updated.
 
@@ -292,14 +280,11 @@ clean:
 #  recipe to execute (from 'Makefile', line 21):
 	rm -f $(BUILD_DIR)/*.elf $(OBJS)
 
-build/measure.o: src/code/measure.c
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'measure'
-#  Last modified 2022-07-07 20:33:28.6745047
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 18):
-	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
+# Not a target:
+build/measure.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -312,13 +297,17 @@ all: build/run.elf
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
 
 build/run.elf: build/func.o build/main.o build/measure.o
 #  Implicit rule search has not been done.
 #  Last modified 2022-07-07 20:33:29.1267646
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
 #  recipe to execute (from 'Makefile', line 15):
 	$(COMPILER) $(COMPILER_FLAGS) -g -o $@ $(OBJS) -Wl,-Map=Mapfile.map
 
@@ -335,25 +324,44 @@ build/main.o: src/code/main.c
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'main'
 #  Last modified 2022-07-07 20:33:28.5313784
+ 
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build/main.o
+# automatic
+# * := main
+# automatic
+# < := src/code/main.c
+# automatic
+# + := src/code/main.c
+# automatic
+# % := 
+# automatic
+# ^ := src/code/main.c
+# automatic
+# ? := src/code/main.c
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=9/16=56%
 #  recipe to execute (from 'Makefile', line 18):
 	$(COMPILER) $(COMPILER_FLAGS) -c -o $@ $< -I$(INCLUDE_DIR)
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/37=0%
+# Load=11/1024=1%, Rehash=0, Collisions=0/33=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 41 / storage = 415 B / avg = 10 B
-# current buf: size = 8162 B / used = 415 B / count = 41 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 39 / storage = 388 B / avg = 9 B
+# current buf: size = 8162 B / used = 388 B / count = 39 / avg = 9 B
 
-# strcache performance: lookups = 55 / hit rate = 25%
+# strcache performance: lookups = 52 / hit rate = 25%
 # hash-table stats:
-# Load=41/8192=1%, Rehash=0, Collisions=0/55=0%
-# Finished Make data base on Tue Jul 12 19:00:38 2022
+# Load=39/8192=0%, Rehash=0, Collisions=0/52=0%
+# Finished Make data base on Thu Jul 14 15:50:11 2022
 
  

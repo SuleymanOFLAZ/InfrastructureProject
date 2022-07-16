@@ -5,54 +5,36 @@ echo "Git pre-commit checks:"
 formatReturn=0
 checkReturn=0
 
+echo ""
+echo ""
+echo "Clang-Format....................................................:"
 python format.py
+formatReturn="$?"
 
-formatReturn=$?
-# if [ $? -eq 0 ]; 
-# then
-#     echo ""
-#     echo "GitHook: Clang-format...................................SUCCESS"
-#     formatReturn=0
-# else
-#     echo ""
-#     echo "GitHook: Clang-format...................................FAILED"
-# fi
-
+echo ""
+echo ""
+echo "Cppcheck........................................................:"
 python check.py -GD
-
-checkReturn=$?
-# if [ $? -eq 0 ]; 
-# then
-#     echo ""
-#     echo "GitHook: CppCheck........................................SUCCESS"
-#     checkReturn=0
-# else
-#     echo ""
-#     echo "GitHook: CppCheck........................................FAILED"
-# fi
-
-echo "Format"
-echo $formatReturn
-echo "Check"
-echo $checkReturn
+checkReturn="$?"
 
 echo "Git Hook Results:"
 
-if (( $formatReturn==0 ))
+if [[ "$formatReturn" -eq 0 ]];
 then
     echo "GitHook: Clang-format....................................SUCCESS"
 else
     echo "GitHook: Clang-format....................................FAILED"
 fi
 
-if (( $checkReturn==0 ))
+if [[ "$checkReturn" -eq 0 ]];
 then
     echo "GitHook: CppCheck........................................SUCCESS"
 else
     echo "GitHook: CppCheck........................................FAILED"
 fi
 
-if (( $formatReturn==0 & $checkReturn==0 ))
+
+if [[ "$formatReturn" -eq 0 && "$checkReturn" -eq 0 ]];
 then
     exit 0
 else

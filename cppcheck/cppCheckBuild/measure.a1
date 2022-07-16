@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3008248617">
+        <error id="misra-c2012-10.3" severity="style" msg="misra violation 1003 with no text in the supplied rule-texts-file" verbose="misra violation 1003 with no text in the supplied rule-texts-file" file0="src/code/measure.c.dump">
+            <location file="src\code\measure.c" line="5" column="26"/>
+        </error>
+        <error id="misra-c2012-21.1" severity="style" msg="misra violation 2101 with no text in the supplied rule-texts-file" verbose="misra violation 2101 with no text in the supplied rule-texts-file" file0="src/code/measure.c.dump">
+            <location file="src\include\measure.h" line="2" column="0"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="calculateCylinderValue" lineNumber="3"/>
+  </FileInfo>
+</analyzerinfo>
